@@ -1,4 +1,4 @@
-package GUI
+package gui
 
 import app.ButtonListener
 import scalafx.geometry.Pos

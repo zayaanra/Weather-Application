@@ -1,6 +1,6 @@
 package app
 
-import GUI.GUI
+import gui.GUI
 import javafx.event.{ActionEvent, EventHandler}
 import scalafx.scene.control.TextField
 
