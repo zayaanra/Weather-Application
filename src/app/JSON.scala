@@ -8,7 +8,7 @@ object JSON {
   /* Go to OpenWeather with API key and retrieve JSON data, parse it to retrieve data as a Tuple(String, String) */
   def weatherData(city: String, state: String): (String, String) = {
     val url: String = "http://api.openweathermap.org/data/2.5/weather?q=" +
-      city + "," + state + "}&appid=" + ""
+      city + "," + state + "}&appid=" + Config.api_key
     val response = Http(url).asString.body
     val parsed: JsValue = Json.parse(response)
     getJSON(parsed)

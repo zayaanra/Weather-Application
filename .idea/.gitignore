@@ -8,4 +8,7 @@
 /httpRequests/
 /.idea/
 /.iml/
+target/
+WA.iml
+pom.xml
 
