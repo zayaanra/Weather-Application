@@ -6,7 +6,7 @@ import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.Scene
 import scalafx.scene.control.{Button, Label, TextField}
-import scalafx.scene.layout.{HBox, VBox}
+import scalafx.scene.layout.{BorderPane, HBox, VBox}
 import scalafx.scene.image.{Image, ImageView}
 
 object GUI extends JFXApp {
